@@ -18,7 +18,7 @@ const Services = () => {
   };
 
   return (
-    <div className="services-section">
+    <div className="services-section" id="services">
       <h1 className="title">
         My Awesome <span className="highlight">services</span>
       </h1>

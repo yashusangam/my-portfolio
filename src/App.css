@@ -21,7 +21,13 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 25px 80px;
-   color: var(--text-light);
+  color: var(--text-light);
+  background-color: var(--bg-black);
+  box-shadow: 0 8px 6px -1px rgba(231, 225, 225, 0.1);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999; /* stays on top */
 }
 
 .logo {
@@ -111,9 +117,9 @@ background: linear-gradient(to right, rgb(170, 195, 231), #007bff);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 10rem 50px;
+  padding: 10rem 10rem 1.5rem;
   color: var(--text-light);
-  height: 80dvh;
+  height: 60dvh;
   text-align: left;
   flex-wrap: wrap;
 }
@@ -371,7 +377,8 @@ background: linear-gradient(to left,#007bff, #007bff );
   align-items: center;
   justify-content: center;
   font-family: Arial, sans-serif;
-  padding: 20px 80px;
+  padding: 0px 80px;
+  height: 100dvh;
 }
 
 .left {

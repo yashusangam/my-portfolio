@@ -38,7 +38,7 @@ const About = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" id='about'>
       <div className="left">
         <img src="/yasu.jpeg" alt="Profile" className="profile-image" />
       </div>
