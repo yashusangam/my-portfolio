@@ -239,7 +239,7 @@ background: linear-gradient(to left,#007bff, #007bff );
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 2rem 40px;
+    padding: 5.5rem 2rem 40px;
     height: auto;  /* Let height adjust naturally */
     text-align: center;
   }
@@ -441,6 +441,7 @@ background: linear-gradient(to left,#007bff, #007bff );
   .container {
     flex-direction: column;
     padding: 20px 10px;
+    margin-top: -6.5rem;
   }
 
   .left {
