@@ -18,7 +18,7 @@ const About = () => {
           <div className="content">
             <h3>Job Title</h3>
             <p>Company Name - Duration</p>
-            <p>Responsibilities and achievements...</p>
+            <p>Responsibilities and achievements..</p>
           </div>
         );
       case 'Skills':
