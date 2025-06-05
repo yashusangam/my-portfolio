@@ -24,7 +24,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
          setIsLoading(true);
 
          try {
-           const url = `http://localhost:5000/contact`;
+           const url = `https://portfolio-backend-bv8t.onrender.com/contact`;
            console.log("Fetching URL:", url);
            console.log("Request Body:", formData);
 
