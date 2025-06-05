@@ -31,8 +31,8 @@ function Hero() {
         </h3>
 
         <p>
-          "I specialize in crafting modern and responsive web applications <br />
-          that deliver seamless user experiences."
+         👉 "I build modern, mobile-friendly web apps that look great and work smoothly.
+Focused on clean design and seamless user experience."
         </p>
 
         <div className="buttons">
